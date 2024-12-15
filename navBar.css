@@ -1,0 +1,65 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 1.6%;
+    margin-left: 1.2%;
+    margin-right: 1.2%;
+    background-color: black;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: orange;
+}
+
+.navbar .search-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .search-container input[type="text"] {
+    padding: 5px;
+    border: 1px solid orange;
+    border-radius: 3px 0 0 3px;
+    outline: none;
+    width: 150px;
+}
+
+.navbar .search-container button {
+    padding: 5px 10px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 0 3px 3px 0;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar .search-container button:hover {
+    background-color: #cc8400;
+}
